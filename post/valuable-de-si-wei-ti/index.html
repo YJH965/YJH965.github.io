@@ -1,86 +1,108 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>valuable 的思维题 | 菜王的 blog</title>
-<link rel="shortcut icon" href="https://YJH965.github.io/favicon.ico?v=1681574582308">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="菜">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://YJH965.github.io/favicon.ico?v=1681578337940">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://YJH965.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="valuable 的思维题 | 菜王的 blog - Atom Feed" href="https://YJH965.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="题单
-题意
-link
-你有一个可重集 sss，其中只包含 [1,n][1, n][1,n] 内的元素，元素 iii 有 aia_iai​ 个。
-有两种操作：
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
-选择区间 [l,r][l, r][l,r]，从可重集里移除一个 lll，一个 l..." />
-    <meta name="keywords" content="valuable" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://YJH965.github.io">
-  <img class="avatar" src="https://YJH965.github.io/images/avatar.png?v=1681574582308" alt="">
-  </a>
-  <h1 class="site-title">
-    菜王的 blog
-  </h1>
-  <p class="site-description">
-    菜
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://YJH965.github.io">
+        <img class="avatar" src="https://YJH965.github.io/images/avatar.png?v=1681578337940" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://YJH965.github.io">
+        <h1 class="site-title">菜王的 blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://YJH965.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://www.luogu.com.cn/user/477443" class="menu" target="_blank">
+            My Luogu
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://codeforces.com/profile/YuJiahe" class="menu" target="_blank">
+            My Codeforces
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://atcoder.jp/users/YuJiahe" class="menu" target="_blank">
+            My AtCoder
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              valuable 的思维题
-            </h2>
-            <div class="post-info">
-              <span>
-                2023-04-15
-              </span>
-              <span>
-                60 min read
-              </span>
-              
-                <a href="https://YJH965.github.io/tag/oe--pMQPF/" class="post-tag">
-                  # valuable
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">valuable 的思维题</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-04-15</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p><a href="https://www.luogu.com.cn/training/188774">题单</a></p>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://YJH965.github.io/tag/oe--pMQPF/">
+                    valuable
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><a href="https://www.luogu.com.cn/training/188774">题单</a></p>
 <h2 id="题意">题意</h2>
 <p><a href="https://codeforces.com/problemset/problem/1400/E">link</a></p>
 <p>你有一个可重集 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>s</mi></mrow><annotation encoding="application/x-tex">s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">s</span></span></span></span>，其中只包含 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>[</mo><mn>1</mn><mo separator="true">,</mo><mi>n</mi><mo>]</mo></mrow><annotation encoding="application/x-tex">[1, n]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">]</span></span></span></span> 内的元素，元素 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span> 有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>a</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">a_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 个。</p>
@@ -625,149 +647,49 @@ n &gt; 1 &amp; \operatorname{MEX}_{i = 0}^{n - 2}\{SG(i) \oplus SG(n - i - 2)\}
 <p>然后我们考虑以下算法：给每一块开个桶，记录该块值为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span></span></span></span> 的串有哪些，这个预处理可以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mn>256</mn><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(256n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord">2</span><span class="mord">5</span><span class="mord">6</span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span> 完成。然后对于每次查询，对于每段<strong>暴力</strong>在桶中查找，并用 <code>bitset</code> 比对。</p>
 <p>然后我们考虑证明其时间复杂度的正确性。因为串是完全随机生成，所以这些串在同一段的每个桶里是均匀分布的，于是每个桶的期望大小是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mfrac><mi>n</mi><msup><mn>2</mn><mn>16</mn></msup></mfrac><mo>≈</mo><mn>6</mn></mrow><annotation encoding="application/x-tex">\frac n{2^{16}} \approx 6</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.040392em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.695392em;"><span style="top:-2.6550000000000002em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7463142857142857em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">6</span></span></span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span></span></span></span>，期望比对 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>6</mn><mo>×</mo><mn>16</mn><mo>=</mo><mn>96</mn></mrow><annotation encoding="application/x-tex">6 \times 16 = 96</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">6</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">6</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">9</span><span class="mord">6</span></span></span></span> 次，所以这样足以通过本题。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E9%A2%98%E6%84%8F">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-2">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-2">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-3">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-3">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-4">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-4">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-5">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-5">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-6">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-6">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-7">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-7">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-8">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-8">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-9">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-9">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-10">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-10">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-11">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-11">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-12">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-12">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-13">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-13">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-14">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-14">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-15">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-15">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-16">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-16">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-17">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-17">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-18">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-18">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-19">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-19">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-20">题意</a>
-<ul>
-<li><a href="#task1">Task1</a></li>
-<li><a href="#task2">Task2</a></li>
-</ul>
-</li>
-<li><a href="#%E9%A2%98%E8%A7%A3-20">题解</a>
-<ul>
-<li><a href="#task1-2">Task1</a></li>
-<li><a href="#task2-2">Task2</a></li>
-</ul>
-</li>
-<li><a href="#%E9%A2%98%E6%84%8F-21">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-21">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-22">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-22">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-23">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-23">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-24">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-24">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-25">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-25">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-26">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-26">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-27">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-27">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-28">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-28">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-29">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-29">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-30">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-30">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-31">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-31">题解</a></li>
-<li><a href="#%E9%A2%98%E6%84%8F-32">题意</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-32">题解</a></li>
-<li><a href="#%E9%A2%98%E7%9B%AE">题目</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-33">题解</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://YJH965.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">菜</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://YJH965.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>

@@ -1,85 +1,98 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>2022 NOIP 模拟赛 总结 | 菜王的 blog</title>
-<link rel="shortcut icon" href="https://YJH965.github.io/favicon.ico?v=1681574582308">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="菜">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://YJH965.github.io/favicon.ico?v=1681578337940">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://YJH965.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="2022 NOIP 模拟赛 总结 | 菜王的 blog - Atom Feed" href="https://YJH965.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="一
-成绩
-100+100+0+48=248100 + 100 + 0 + 48 = 248100+100+0+48=248。
-失误点
-T1 降智想了两个小时才换题，导致第三题没有时间看。
-启发
-卡在某一题的时候要及时换题！！！
-题解
-B
-我..." />
-    <meta name="keywords" content="" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://YJH965.github.io">
-  <img class="avatar" src="https://YJH965.github.io/images/avatar.png?v=1681574582308" alt="">
-  </a>
-  <h1 class="site-title">
-    菜王的 blog
-  </h1>
-  <p class="site-description">
-    菜
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://YJH965.github.io">
+        <img class="avatar" src="https://YJH965.github.io/images/avatar.png?v=1681578337940" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://YJH965.github.io">
+        <h1 class="site-title">菜王的 blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://YJH965.github.io/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://www.luogu.com.cn/user/477443" class="menu" target="_blank">
+            My Luogu
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://codeforces.com/profile/YuJiahe" class="menu" target="_blank">
+            My Codeforces
+          </a>
+        
+      
+        
+          <a class="menu purple-link" href="https://atcoder.jp/users/YuJiahe" class="menu" target="_blank">
+            My AtCoder
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              2022 NOIP 模拟赛 总结
-            </h2>
-            <div class="post-info">
-              <span>
-                2023-04-15
-              </span>
-              <span>
-                23 min read
-              </span>
-              
-            </div>
+          
+          <h2 class="post-title">2022 NOIP 模拟赛 总结</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-04-15</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <h1 id="一"><a href="http://oiclass.com/d/tigao/contest/6315ab8e1e3e23889839b877">一</a></h1>
+          </div>
+          <div class="post-content">
+            <h1 id="一"><a href="http://oiclass.com/d/tigao/contest/6315ab8e1e3e23889839b877">一</a></h1>
 <h2 id="成绩">成绩</h2>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>100</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>48</mn><mo>=</mo><mn>248</mn></mrow><annotation encoding="application/x-tex">100 + 100 + 0 + 48 = 248</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">8</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">4</span><span class="mord">8</span></span></span></span>。</p>
 <h2 id="失误点">失误点</h2>
@@ -270,168 +283,49 @@ s \le t &amp; \sum_{x = 0}^i \sum_{y = x}^j \binom ix \binom jy f(s + 1, i - x, 
 </ol>
 <p>时间复杂度为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mi>log</mi><mo>⁡</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n \log n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span>。</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li><a href="#%E4%B8%80">一</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91">启发</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3">题解</a>
-<ul>
-<li><a href="#b">B</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E4%BA%8C">二</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-2">成绩</a></li>
-</ul>
-</li>
-<li><a href="#%E4%B8%89">三</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-3">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9-2">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-2">启发</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-2">题解</a>
-<ul>
-<li><a href="#b-2">B</a></li>
-<li><a href="#c">C</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E5%9B%9B">四</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-4">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9-3">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-3">启发</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-3">题解</a>
-<ul>
-<li><a href="#b-3">B</a></li>
-<li><a href="#c-2">C</a>
-<ul>
-<li><a href="#%E8%A7%A3%E6%B3%95%E4%B8%80">解法一</a></li>
-<li><a href="#%E8%A7%A3%E6%B3%95%E4%BA%8C">解法二</a></li>
-</ul>
-</li>
-<li><a href="#d">D</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E4%BA%94">五</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-5">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9-4">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-4">启发</a></li>
-</ul>
-</li>
-<li><a href="#%E5%85%AD">六</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-6">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9-5">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-5">启发</a></li>
-</ul>
-</li>
-<li><a href="#ex1">Ex1</a>
-<ul>
-<li><a href="#%E9%A2%98%E8%A7%A3-4">题解</a>
-<ul>
-<li><a href="#a">A</a></li>
-<li><a href="#b-4">B</a></li>
-<li><a href="#c-3">C</a></li>
-<li><a href="#d-2">D</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#%E4%B8%83">七</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-7">成绩</a></li>
-<li><a href="#%E5%A4%B1%E8%AF%AF%E7%82%B9-6">失误点</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-6">启发</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-5">题解</a></li>
-<li><a href="#b-5">B</a></li>
-</ul>
-</li>
-<li><a href="#ex2">Ex2</a>
-<ul>
-<li><a href="#a-2">A</a></li>
-<li><a href="#b-6">B</a></li>
-</ul>
-</li>
-<li><a href="#%E5%85%AB">八</a>
-<ul>
-<li><a href="#%E6%88%90%E7%BB%A9-8">成绩</a></li>
-<li><a href="#%E5%90%AF%E5%8F%91-7">启发</a></li>
-<li><a href="#%E9%A2%98%E8%A7%A3-6">题解</a></li>
-<li><a href="#b-7">B</a></li>
-<li><a href="#c-4">C</a></li>
-</ul>
-</li>
-</ul>
-
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://YJH965.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">菜</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://YJH965.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
