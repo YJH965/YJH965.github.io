@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://YJH965.github.io</id>
     <title>菜王的 blog</title>
-    <updated>2023-05-04T01:59:13.104Z</updated>
+    <updated>2023-05-08T14:03:56.261Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://YJH965.github.io"/>
     <link rel="self" href="https://YJH965.github.io/atom.xml"/>
@@ -10,6 +10,16 @@
     <logo>https://YJH965.github.io/images/avatar.png</logo>
     <icon>https://YJH965.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, 菜王的 blog</rights>
+    <entry>
+        <title type="html"><![CDATA[PKUSC2023 游记]]></title>
+        <id>https://YJH965.github.io/post/pkusc2023-you-ji/</id>
+        <link href="https://YJH965.github.io/post/pkusc2023-you-ji/">
+        </link>
+        <updated>2023-05-08T14:02:15.000Z</updated>
+        <content type="html"><![CDATA[<p>简单概括一下。</p>
+<p>北上，败北，遗憾离场。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[ABC233E] Σ[k=0..10^100]floor(X／10^k) 题解]]></title>
         <id>https://YJH965.github.io/post/abc233e-sk010100floorx10k-ti-jie/</id>
@@ -538,58 +548,6 @@ int main(){
 </code></pre>
 <p>32 行直接搞定，大概是最短的代码了。</p>
 <p>本文部分内容选自<a href="https://blog.csdn.net/byn12345/article/details/79523516">C++中set用法详解</a>，作者<a href="https://blog.csdn.net/byn12345">byn12345</a>，如果想了解 <code>set</code> 的更多使用方法，这篇文章值得一看。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chocolate Milk S 题解]]></title>
-        <id>https://YJH965.github.io/post/chocolate-milk-s-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/chocolate-milk-s-ti-jie/">
-        </link>
-        <updated>2023-04-15T18:13:21.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="思路">思路</h1>
-<p>这题需要使用拓扑排序。</p>
-<p>如何使用呢？我们看这张图。</p>
-<figure data-type="image" tabindex="1"><img src="https://cdn.luogu.com.cn/upload/image_hosting/l628268a.png" alt="" loading="lazy"></figure>
-<p>如图，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>、<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>、<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3</mn></mrow><annotation encoding="application/x-tex">3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 三个点是挤奶器，假设它们的流量为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>，其他每个点的流量为它所有父节点流量的和。</p>
-<p>为什么 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>8</mn></mrow><annotation encoding="application/x-tex">8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span></span></span></span>、<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>9</mn></mrow><annotation encoding="application/x-tex">9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">9</span></span></span></span> 点没有标记呢？因为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>7</mn></mrow><annotation encoding="application/x-tex">7</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">7</span></span></span></span> 点的出度大于 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>，所以 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>8</mn></mrow><annotation encoding="application/x-tex">8</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span></span></span></span> 点和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>9</mn></mrow><annotation encoding="application/x-tex">9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">9</span></span></span></span> 点都不可能成为安装的点。（划重点！！！）</p>
-<p>所以，我们可以用拓扑排序递推每个点的流量，<strong>流量正好等于挤奶器个数且不为挤奶器的点才可以安装！</strong></p>
-<h1 id="代码">代码</h1>
-<pre><code class="language-cpp">#include &lt;iostream&gt;
-#include &lt;cstring&gt;
-#include &lt;vector&gt;
-#include &lt;queue&gt;
-
-using namespace std;
-
-int d, rd[100001], s[100001], n, u, v; // rd表示入度，s表示流量，d为挤奶器的数量
-vector&lt;int&gt; edge[100001];
-bool ccc[100001]; // 是否为挤奶器
-int main(){
-	cin &gt;&gt; n;
-	for (int i = 1;i &lt; n;i ++){
-		cin &gt;&gt; u &gt;&gt; v;
-		edge[u].push_back(v);
-		rd[v] ++; // 统计入度
-	}
-	queue&lt;int&gt; q;
-	for (int i = 1;i &lt;= n;i ++){
-		if (rd[i] == 0) q.push(i), s[i] = ccc[i] = 1, d ++; // 如果为挤奶器
-	}
-	while (q.size()){ // 拓扑排序
-		int f = q.front();
-		q.pop();
-		if (edge[f].size() == 1){ // 如果出度大于1，下一个点就不能混合所有的牛奶，所以只有出度等于1，才能进入下一个点。
-			v = edge[f][0];
-			rd[v] --; // 减少出度
-			s[v] += s[f]; // 统计流量
-			if (rd[v] == 0) q.push(v); // 压进新的点
-		}
-	}
-	for (int i = 1;i &lt;= n;i ++){
-		if (d == s[i] &amp;&amp; !ccc[i]) cout &lt;&lt; i &lt;&lt; endl; // 判断并输出
-	}
-}
-</code></pre>
 ]]></content>
     </entry>
 </feed>
