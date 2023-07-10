@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://YJH965.github.io</id>
     <title>菜王的 blog</title>
-    <updated>2023-07-10T14:01:42.862Z</updated>
+    <updated>2023-07-10T14:06:11.793Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://YJH965.github.io"/>
     <link rel="self" href="https://YJH965.github.io/atom.xml"/>
@@ -113,6 +113,7 @@ int main(){scanf(&quot;%d&quot;, &amp;n);
 	}printf(&quot;%d&quot;, solve(1, 0, n - 1));
 }
 </code></pre>
+<p>虽然这个做法被标算完全爆踩，但是一步步推导并实现出自己独特的做法的过程令我乐在其中，很有成就感。而且，这个做法也大大的加深了我对数据结构优化 DP 的理解。</p>
 ]]></content>
     </entry>
     <entry>
