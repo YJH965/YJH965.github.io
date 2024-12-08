@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>数字游戏（Cow Digit Game） | 菜王的 blog</title>
+<title>紫 Ynoi 随机乱做 | 菜王的 blog</title>
 <meta name="description" content="菜">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -86,97 +86,26 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">数字游戏（Cow Digit Game）</h2>
+          <h2 class="post-title">紫 Ynoi 随机乱做</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2023-04-16</span>
-            
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://YJH965.github.io/tag/snS5DT8z2/">
-                    杂物
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="https://YJH965.github.io/tag/LQ0w-t_P69/">
-                    题解
-                    
-                  </a>
-                
-              </span>
+            <span><i class="icon-calendar-outline"></i> 2024-12-08</span>
             
           </div>
           <div class="post-content">
-            <p>本蒟蒻的第二篇题解！</p>
-<h1 id="题目传送门">题目传送门</h1>
-<p><a href="https://www.luogu.com.cn/problem/P2953">P2953</a></p>
-<h1 id="前置芝士博弈论结论">前置芝士（博弈论结论）</h1>
-<p>当某种状态的后继状态都是必胜状态时，该状态为必败状态；</p>
-<p>否则，该状态为必胜状态。</p>
-<p>原因很简单，因为，如果是第一种情况，你无论执行什么操作，都会变成对面操作的必胜状态，对面必胜，你必败。</p>
-<p>否则，你只要能把当前状态变成对面操作的必败状态，则对面必败，你必胜。</p>
-<h1 id="解法">解法</h1>
-<p>很多人都认为这题不能用 DFS，但是，DFS 不行，我们可以用记忆化 DFS！至于怎么用，就需要搭配上博弈论，<s>食用更放心</s>。（注释写在代码里）</p>
-<h1 id="代码">代码</h1>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define ll long long
-#define ull unsigned long long
-#define str string
-
-using namespace std;
-
-int t, n;
-bool win[1000001], vis[1000001]; //状态记忆化
-int get_digit(int n, int x){ //得到数字的某一位
-	return int(n / pow(10, x - 1)) % 10;
-}
-int get_how_many_digits(int x){ //得到数字的位数
-	int ans = 0;
-	while (x &gt; 0){
-		x /= 10;
-		ans ++;
-	}
-	return ans;
-}
-bool solve(int x){ //dfs
-	if (vis[x]) return win[x]; //记忆化
-	int hmd = get_how_many_digits(x), maxn = 0, minn = 10, gd;
-	for (int i = 1;i &lt;= hmd;i ++){
-		gd = get_digit(x, i);
-		if (gd &gt; 0){
-			maxn = max(gd, maxn);
-			minn = min(gd, minn);
-		}
-	} //枚举最大最小数
-	if (solve(x - maxn) &amp;&amp; solve(x - minn)) win[x] = false; //博弈论定理运用
-	else win[x] = true;
-	vis[x] = true;
-	return win[x]; //记忆化
-}
-int main(){
-	cin &gt;&gt; t;
-	win[0] = false, vis[0] = true; //初始化（0是必败状态，vis[i]代表第i项是否被设置过）
-	for (int i = 0;i &lt; t;i ++){
-		cin &gt;&gt; n; //输入初始数
-		if (solve(n)) cout &lt;&lt; &quot;YES\n&quot;;
-		else cout &lt;&lt; &quot;NO\n&quot;; //输出
-	}
-}
-</code></pre>
-<p>成功<br>
-<a href="https://www.luogu.com.cn/record/49183155">AC</a></p>
-<p>完结撒花</p>
+            <h2 id="p10149-ynoi1999-xm66f"><a href="https://www.luogu.com.cn/problem/P10149">P10149 [Ynoi1999] XM66F</a></h2>
+<p><a href="https://yjh965.github.io/post/p10149-ynoi1999-xm66f-ti-jie">这个</a>。没写过。</p>
+<h2 id="p9991-ynoi-easy-round-2023-test_107"><a href="https://www.luogu.com.cn/problem/P9991">P9991 [Ynoi Easy Round 2023] TEST_107</a></h2>
+<p>考虑这个等价于强制钦定一种数不选，所以答案就是一个位置 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi></mrow><annotation encoding="application/x-tex">p</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">p</span></span></span></span> 的相等前驱 / 后继与它的距离的最大值（若不存在则为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">l - 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 或 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>r</mi><mo>+</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">r + 1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>）。</p>
+<p>分三种情况讨论即可做到单 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>log</mi><mo>⁡</mo></mrow><annotation encoding="application/x-tex">\log</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span></span></span></span>。没写过。</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://YJH965.github.io/post/ruan-chong-you-xi/">
+            <a class="purple-link" href="https://YJH965.github.io/post/p10149-ynoi1999-xm66f-ti-jie/">
               <h3 class="post-title">
-                下一篇：蠕虫游戏
+                下一篇：P10149 [Ynoi1999] XM66F 题解
               </h3>
             </a>
           </div>
