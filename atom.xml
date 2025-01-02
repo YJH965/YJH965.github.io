@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://YJH965.github.io</id>
     <title>菜王的 blog</title>
-    <updated>2024-12-31T09:03:34.841Z</updated>
+    <updated>2025-01-02T03:29:50.970Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://YJH965.github.io"/>
     <link rel="self" href="https://YJH965.github.io/atom.xml"/>
     <subtitle>菜</subtitle>
     <logo>https://YJH965.github.io/images/avatar.png</logo>
     <icon>https://YJH965.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2024, 菜王的 blog</rights>
+    <rights>All rights reserved 2025, 菜王的 blog</rights>
     <entry>
         <title type="html"><![CDATA[[AGC070B] Odd Namori 题解]]></title>
         <id>https://YJH965.github.io/post/agc070b-odd-namori-ti-jie/</id>
