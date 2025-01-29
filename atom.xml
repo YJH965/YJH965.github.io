@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://YJH965.github.io</id>
+    <id>https://yjh965.github.io</id>
     <title>菜王的 blog</title>
-    <updated>2025-01-29T02:33:14.493Z</updated>
+    <updated>2025-01-29T02:41:10.692Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://YJH965.github.io"/>
-    <link rel="self" href="https://YJH965.github.io/atom.xml"/>
+    <link rel="alternate" href="https://yjh965.github.io"/>
+    <link rel="self" href="https://yjh965.github.io/atom.xml"/>
     <subtitle>菜</subtitle>
-    <logo>https://YJH965.github.io/images/avatar.png</logo>
-    <icon>https://YJH965.github.io/favicon.ico</icon>
+    <logo>https://yjh965.github.io/images/avatar.png</logo>
+    <icon>https://yjh965.github.io/favicon.ico</icon>
     <rights>All rights reserved 2025, 菜王的 blog</rights>
     <entry>
         <title type="html"><![CDATA[为了全文第一段话写了篇题解]]></title>
-        <id>https://YJH965.github.io/post/wei-liao-quan-wen-di-yi-duan-hua-xie-liao-pian-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/wei-liao-quan-wen-di-yi-duan-hua-xie-liao-pian-ti-jie/">
+        <id>https://yjh965.github.io/post/wei-liao-quan-wen-di-yi-duan-hua-xie-liao-pian-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/wei-liao-quan-wen-di-yi-duan-hua-xie-liao-pian-ti-jie/">
         </link>
         <updated>2025-01-28T17:54:52.000Z</updated>
         <content type="html"><![CDATA[<p>我寻思这种“一正常题非要爆改计数嗯堆难度结果整出一托答辩”不应该是模拟赛恰烂钱才能干的事吗，怎么扔 CF 了。真不如来做我们 <a href="https://www.luogu.com.cn/problem/T524402">P11269 爆改版</a>。</p>
@@ -56,8 +56,8 @@ k \oplus 1 &amp; n = 2^k\\
     </entry>
     <entry>
         <title type="html"><![CDATA[PKUWC2025 D1T1 的可能比较理性的做法]]></title>
-        <id>https://YJH965.github.io/post/pkuwc2025-d1t1-de-ke-neng-bi-jiao-li-xing-de-zuo-fa/</id>
-        <link href="https://YJH965.github.io/post/pkuwc2025-d1t1-de-ke-neng-bi-jiao-li-xing-de-zuo-fa/">
+        <id>https://yjh965.github.io/post/pkuwc2025-d1t1-de-ke-neng-bi-jiao-li-xing-de-zuo-fa/</id>
+        <link href="https://yjh965.github.io/post/pkuwc2025-d1t1-de-ke-neng-bi-jiao-li-xing-de-zuo-fa/">
         </link>
         <updated>2025-01-28T17:54:13.000Z</updated>
         <content type="html"><![CDATA[<p>首先题面可以转化成：有 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">a + b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">a</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span> 个点，请你连接最少的边使得最大独立集大小 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&lt;</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">&lt; b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>。</p>
@@ -67,8 +67,8 @@ k \oplus 1 &amp; n = 2^k\\
     </entry>
     <entry>
         <title type="html"><![CDATA[[AGC070B] Odd Namori 题解]]></title>
-        <id>https://YJH965.github.io/post/agc070b-odd-namori-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/agc070b-odd-namori-ti-jie/">
+        <id>https://yjh965.github.io/post/agc070b-odd-namori-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/agc070b-odd-namori-ti-jie/">
         </link>
         <updated>2024-12-31T08:45:02.000Z</updated>
         <content type="html"><![CDATA[<p>唉，终究还是无法战胜。</p>
@@ -83,8 +83,8 @@ k \oplus 1 &amp; n = 2^k\\
     </entry>
     <entry>
         <title type="html"><![CDATA[决策单调性优化 DP 学习笔记]]></title>
-        <id>https://YJH965.github.io/post/jue-ce-dan-diao-xing-you-hua-dp-xue-xi-bi-ji/</id>
-        <link href="https://YJH965.github.io/post/jue-ce-dan-diao-xing-you-hua-dp-xue-xi-bi-ji/">
+        <id>https://yjh965.github.io/post/jue-ce-dan-diao-xing-you-hua-dp-xue-xi-bi-ji/</id>
+        <link href="https://yjh965.github.io/post/jue-ce-dan-diao-xing-you-hua-dp-xue-xi-bi-ji/">
         </link>
         <updated>2024-12-23T03:44:14.000Z</updated>
         <content type="html"><![CDATA[<h1 id="决策单调性优化-dp">决策单调性优化 DP</h1>
@@ -149,8 +149,8 @@ cost(a, d) + cost(b, c) \le cost(b, d) + cost(a, c)\\
     </entry>
     <entry>
         <title type="html"><![CDATA[紫 Ynoi 随机乱做]]></title>
-        <id>https://YJH965.github.io/post/zi-ynoi-sui-ji-luan-zuo/</id>
-        <link href="https://YJH965.github.io/post/zi-ynoi-sui-ji-luan-zuo/">
+        <id>https://yjh965.github.io/post/zi-ynoi-sui-ji-luan-zuo/</id>
+        <link href="https://yjh965.github.io/post/zi-ynoi-sui-ji-luan-zuo/">
         </link>
         <updated>2024-12-08T11:00:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="p10149-ynoi1999-xm66f"><a href="https://www.luogu.com.cn/problem/P10149">P10149 [Ynoi1999] XM66F</a></h2>
@@ -180,8 +180,8 @@ cost(a, d) + cost(b, c) \le cost(b, d) + cost(a, c)\\
     </entry>
     <entry>
         <title type="html"><![CDATA[P10149 [Ynoi1999] XM66F 题解]]></title>
-        <id>https://YJH965.github.io/post/p10149-ynoi1999-xm66f-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/p10149-ynoi1999-xm66f-ti-jie/">
+        <id>https://yjh965.github.io/post/p10149-ynoi1999-xm66f-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/p10149-ynoi1999-xm66f-ti-jie/">
         </link>
         <updated>2024-12-08T10:31:44.000Z</updated>
         <content type="html"><![CDATA[<p>考虑值域从小往大扫，同时维护另一个序列 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>，扫过的地方 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span> 对应的位置改成 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>，那么一对位置 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>i</mi><mo separator="true">,</mo><mi>k</mi><mo>)</mo><mtext> </mtext><mo>(</mo><msub><mi>a</mi><mi>i</mi></msub><mo>=</mo><msub><mi>a</mi><mi>k</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">(i, k) \ (a_i = a_k)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">i</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mclose">)</span><span class="mspace"> </span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 的贡献是 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>b</mi><mrow><mi>i</mi><mo>∼</mo><mi>k</mi></mrow></msub></mrow><annotation encoding="application/x-tex">b_{i \sim k}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.84444em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">b</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">∼</span><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> 的和。</p>
@@ -214,8 +214,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
     </entry>
     <entry>
         <title type="html"><![CDATA[这不比 A 火？]]></title>
-        <id>https://YJH965.github.io/post/zhe-bu-bi-a-huo/</id>
-        <link href="https://YJH965.github.io/post/zhe-bu-bi-a-huo/">
+        <id>https://yjh965.github.io/post/zhe-bu-bi-a-huo/</id>
+        <link href="https://yjh965.github.io/post/zhe-bu-bi-a-huo/">
         </link>
         <updated>2024-11-18T12:29:05.000Z</updated>
         <content type="html"><![CDATA[<p>这不比 A 火？这不比 A 火？这不比 A 火？这不比 A 火？</p>
@@ -233,8 +233,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
     </entry>
     <entry>
         <title type="html"><![CDATA[P11292 「KDOI-11」彩灯晚会 题解]]></title>
-        <id>https://YJH965.github.io/post/p11292-kdoi-11-cai-deng-wan-hui-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/p11292-kdoi-11-cai-deng-wan-hui-ti-jie/">
+        <id>https://yjh965.github.io/post/p11292-kdoi-11-cai-deng-wan-hui-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/p11292-kdoi-11-cai-deng-wan-hui-ti-jie/">
         </link>
         <updated>2024-11-17T07:31:40.000Z</updated>
         <content type="html"><![CDATA[<p>好题。碍于场上策略原因没有场切这个题，但也算是单杀了，来写篇题解。</p>
@@ -263,8 +263,8 @@ ans &amp;= \sum_{i = 0}^l k^{n - 2l + i + 1} \sum_{j = i}^l \binom ji (-1)^{j - 
     </entry>
     <entry>
         <title type="html"><![CDATA[MX-S5 T3 官方题解]]></title>
-        <id>https://YJH965.github.io/post/mx-s5-t3-guan-fang-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/mx-s5-t3-guan-fang-ti-jie/">
+        <id>https://yjh965.github.io/post/mx-s5-t3-guan-fang-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/mx-s5-t3-guan-fang-ti-jie/">
         </link>
         <updated>2024-11-09T05:47:26.000Z</updated>
         <content type="html"><![CDATA[<h1 id="imawanokiwa-construction-verfeoi-命题组">IMAWANOKIWA (Construction ver.)（FeOI 命题组）</h1>
@@ -319,8 +319,8 @@ ans &amp;= \sum_{i = 0}^l k^{n - 2l + i + 1} \sum_{j = i}^l \binom ji (-1)^{j - 
     </entry>
     <entry>
         <title type="html"><![CDATA[[ARC186E] Missing Subsequence 题解]]></title>
-        <id>https://YJH965.github.io/post/arc186e-missing-subsequence-ti-jie/</id>
-        <link href="https://YJH965.github.io/post/arc186e-missing-subsequence-ti-jie/">
+        <id>https://yjh965.github.io/post/arc186e-missing-subsequence-ti-jie/</id>
+        <link href="https://yjh965.github.io/post/arc186e-missing-subsequence-ti-jie/">
         </link>
         <updated>2024-10-31T10:41:14.000Z</updated>
         <content type="html"><![CDATA[<p>赛时没敢开这个题，但是赛后单杀了。以后还是得相信自己，大胆开题啊。</p>
